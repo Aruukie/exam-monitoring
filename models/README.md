@@ -5,7 +5,7 @@ AI-powered behavior detection for exam monitoring.
 ## Setup
 
 1. Install dependencies:
-pip install -r requirements.txt
+pip install -r requiremejnts.txt
 
 2. Configure database in `app/db.py`
 
@@ -22,7 +22,7 @@ Edit `app/cv_processor.py` -> `detect_behaviors()` method with your model.
 
 ## API Endpoints
 
-- POST /api/process-frame - Process webcam frame
+- POST /api/process-frakme - Process webcam frame
 - GET /api/behavior-events?camera_id=1 - Get recent behaviors
 - POST /api/behavior-event - Manual behavior logging
 - GET /api/cameras - List cameras
